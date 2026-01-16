@@ -1,0 +1,16 @@
+org_name: nullstone
+name: k8s-http-startup-probe
+friendly_name: Startup Probe
+description: Adds an httpGet startup (Has app started?) probe to a Kubernetes app
+category: capability
+subcategory: telemetry
+provider_types:
+    - aws
+    - gcp
+platform: k8s
+subplatform: ""
+type: ""
+appCategories:
+    - container
+is_public: true
+tool_name: opentofu
